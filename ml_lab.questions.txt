@@ -1,23 +1,24 @@
-<firstname> <lastname>
+Andrew Beck
 CSCI 305
 Spring 2018
 Lab Questions
 =======================
-1.
+1. val it = [4,2,5,2,6,10] : int list
 
-2.
+2.  The function f takes as an argument a list of integers, increments each element in the list, and returns the incremented list of integers.
 
-3.
+3.  The first line of the function f is the base case. If f is called on an empty list, it returns an empty list.
 
-4.
+4.  The second line is responsible for the bulk of the operation of f. The (x::xs) matches any non-empty list and binds x to the head of the list and xs to the tail. Then the (x + 1) will add one to the head of the list. Next the :: will place the incremented x on to the front of the following list. Lastly, the (f xs) is a recursive call to the function with the given argument as the tail of the list. This recursion continues until it reaches the base case of an empty list.
 
-5.
+5. Question 5: false
 
-6.
+6.  My isMember function uses tail recursion.
 
-7.
+7.  list2Set ["it", "was", "the", "best", "of", "times,", "it", "was", "the", "worst", "of", "times"] gives the output:
+val quest7 = Set("best", Set("times,", Set("it", Set("was",Set ("the",Set ("worst",Set ("of",Set ("times",Empty)))))))) : string set
 
-8.
+8.  Tail recursion is the term given to a recursive call in which the final result of the recursive call is also the final result of the function itself. This means that in a recursively defined function, instead of every recursive call needing to be run as a separate function call to completion, the function call can be reused in place with modified input arguments on the stack without needing to push a separate call on to the stack.
 
 9.
 
