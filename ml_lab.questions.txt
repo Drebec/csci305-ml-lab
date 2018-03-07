@@ -16,20 +16,24 @@ Lab Questions
 6.  My isMember function uses tail recursion.
 
 7.  list2Set ["it", "was", "the", "best", "of", "times,", "it", "was", "the", "worst", "of", "times"] gives the output:
-val quest7 = Set("best", Set("times,", Set("it", Set("was",Set ("the",Set ("worst",Set ("of",Set ("times",Empty)))))))) : string set
+    val quest7 = Set("best", Set("times,", Set("it", Set("was",Set ("the",Set ("worst",Set ("of",Set ("times",Empty)))))))) : string set
+    Question 7: val it = () : unit
+    { best times, it was the worst of times }
 
 8.  Tail recursion is the term given to a recursive call in which the final result of the recursive call is also the final result of the function itself. This means that in a recursively defined function, instead of every recursive call needing to be run as a separate function call to completion, the function call can be reused in place with modified input arguments on the stack without needing to push a separate call on to the stack.
 
-9.
+9.  Question 9: val it = () : unit
+    { and eggs green ham }
 
-10.
+10. Question 10: val it = () : unit
+    { and macaroni }
 
-11.
+11. I like how satisfying it is making a non-trivial function work correctly in ML and how simultaneously messy and clean the final definition looks. Messy in the sense that it involves lots of parentheses and can be hard to read, but clean in that it can only take a few lines and recursion helps eliminate the "extra" stuff that could otherwise be necessary in a different language.
 
-12.
+12. ML can be difficult to read and therefore confusing to understand if you put down a program and try to pick it back up a few weeks later.
 
-13.
+13. This lab was a very good exploration of ML. It involved knowledge of all concepts covered to far in the lectures but applied them all together to stretch our abilities in this new language.
 
-14.
+14. I spent approximately 6 hours on this lab.
 
-15.
+15. I can't see myself every using ML again. While it is very good at certain things, namely heavily recursive functions, I am much more comfortable and confident with an OO language and an OO language is capable of solving the same problems ML is. I could see ML being part of a larger project where an ML program would be used for the low level computation for increased efficiency or speed.
